@@ -1,0 +1,33 @@
+body{
+    margin: 50px 50px;
+}
+b{
+    font-size: 35px;
+    display: inline-block;
+    margin-left: 50px;
+}
+h1{
+    font-size: 35px;
+    text-align: center;
+}
+.container{
+    margin: 30px 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box-item{
+    width: 30%;
+    display: flex;
+    /* justify-content: space-between; */
+    margin-bottom: 50px;
+}
+.box-item__img img{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+}
+.box-item__content b{
+    font-size: 16px;
+    margin-left: initial;
+}

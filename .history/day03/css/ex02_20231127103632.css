@@ -1,0 +1,15 @@
+.container{
+    margin: 30px 50px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box-item{
+    width: 35%;
+    display: flex;
+    /* justify-content: space-between; */
+}
+.box-item__img img{
+    width:200px;
+    height:200px;
+}

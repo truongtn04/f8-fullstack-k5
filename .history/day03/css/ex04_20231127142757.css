@@ -1,0 +1,21 @@
+body{
+    margin: 50px 50px;
+}
+b{
+    font-size: 30px;
+}
+ul{
+    border: 2px solid gold;
+    width: 600px;
+    height: 30px;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: gold;
+    font-size: 20px;
+    padding: 10px 26px;
+}

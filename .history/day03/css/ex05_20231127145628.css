@@ -1,0 +1,28 @@
+body{
+     margin: 50px 50px;
+}
+b{
+    font-size: 30px;
+}
+h1{
+    font-size: 40px;
+}
+h1 span{
+    color:aqua;
+}
+.content{
+    text-align: center;
+}
+p{
+    color: grey;
+
+}
+button{
+    width: 190px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin: 0 10px;
+    border: none;
+}

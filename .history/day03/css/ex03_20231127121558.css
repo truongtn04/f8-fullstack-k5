@@ -1,0 +1,25 @@
+body{
+    margin: 50px 50px;
+    width: 700px;
+}
+b{
+    font-size: 35px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+.form-item{
+    margin-bottom: 10px;
+}
+.form-item input + option{
+    width: 200px;
+}
+.form-item label{
+    width: 100px;
+    display: inline-block;
+}
+.form-item__list .form-item__option input{
+    width: initial;
+}
+.form-item__list .form-item__option label{
+    width: initial;
+}

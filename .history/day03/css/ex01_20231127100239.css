@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 50px;
+}
+form input{
+display: block;
+}
+.contact-info{
+    width: 30%;
+}
+.form{
+    width: 70%;
+}
