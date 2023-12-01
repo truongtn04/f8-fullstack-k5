@@ -1,0 +1,112 @@
+body{
+    margin: 50px 50px;
+}
+b{
+    font-size: 30px;
+}
+h1,.navbar{
+    text-align: center;
+}
+input{
+    display: none;
+}
+.navbar{
+    margin-top: 30px;
+}
+label{
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #ddd;
+    margin: 0 5px;
+    cursor: pointer;
+}
+input:checked + label{ 
+    background: #27388d;
+    color: white;
+    user-select: none;
+}
+/* product list */
+.products-skincare,
+.products-haircare,
+.products-cosmetic,
+.products-fragrance,
+.products-makeup{
+    width: 1100px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    display: none;
+}
+/* layout */
+.products-skincare__layout{
+    display: flex;
+}
+.nav-id1__bonus + label{
+    background: #27388d;
+    color: white;
+}
+.nav-id1.nav-id1__bonus.nav-id2__bonus + label{
+    background-color: #ddd;
+    color: black;
+}
+/* products initial */
+input[id="skincare"]:checked ~ .products .products-skincare,
+input[id="haircare"]:checked ~ .products .products-haircare,
+input[id="cosmetics-cases"]:checked ~ .products .products-cosmetic,
+input[id="fragrance"]:checked ~ .products .products-fragrance,
+input[id="makeup"]:checked ~ .products .products-makeup{
+    display: flex;
+}
+input[id="haircare"]:checked ~ .products .products-skincare.products-skincare__layout,
+input[id="cosmetics-cases"]:checked ~ .products .products-skincare,
+input[id="fragrance"]:checked ~ .products .products-skincare.products-skincare__layout,
+input[id="makeup"]:checked ~ .products .products-skincare.products-skincare__layout{
+    display: none;
+}
+
+/* products */
+.products-skincare__item1{
+    width: 220px;
+    position: relative;
+}
+/* hover */
+.products-skincare__item1:hover .shopping{
+    opacity: 1;
+}
+/* width height */
+.products-skincare__img,img{
+    width: 100%;
+    height: 300px;
+}
+.products-skincare__content{
+    text-align: center;
+    margin-top: 30px;
+}
+/* Dùng cho cả trang */
+.shopping{
+    width: 150px;
+    height: 100px;
+    margin : 0 auto;
+    position: absolute;
+    top: 212px;
+    left: 37px;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+.shopping-top{
+    display: flex;
+    justify-content: space-between;
+}
+.shopping-top span{
+    padding: 10px 15px;
+    background: #29388e;
+    border-radius: 3px;
+}
+.shopping-bottom button{
+    margin-top: 10px;
+    background: #27388d;
+    width:150px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+}

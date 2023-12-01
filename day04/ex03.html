@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/ex03.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section>
+        <b>Bai 3: </b>
+        <h1>Best Seller</h1>
+        <!-- navbar -->
+        <div class="navbar">
+            <span>Click Here: </span>
+            <input type="radio" id="skincare" class="nav-id1 nav-id1__bonus" name="category">
+            <label for="skincare">Skincare</label>
+
+            <input type="radio" id="haircare" class="nav-id" name="category" onclick="showBackground()">
+            <label for="haircare">Haircare</label>
+
+            <input type="radio" id="cosmetics-cases" class="nav-id" name="category" onclick="showBackground()">
+            <label for="cosmetics-cases">Cosmetics Cases</label>
+
+            <input type="radio" id="fragrance" class="nav-id" name="category" onclick="showBackground()">
+            <label for="fragrance">Fragrance</label>
+
+            <input type="radio" id="makeup" class="nav-id" name="category" onclick="showBackground()">
+            <label for="makeup">Makeup</label>
+        
+        <!-- .products -->
+        <div class="products">
+            <div class="products-skincare products-skincare__layout">
+                <div class="products-skincare__item1">
+                    <div class="products-skincare__img">
+                        <img src="https://i5.walmartimages.com/asr/05f74e7a-47a3-4051-b185-63ef78c7aa59.b4f010e8112e1fd230655633ac85cb49.jpeg" alt="">
+                    </div>
+                    <div class="products-skincare__content">
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h2>Skin Care Bubble</h2>
+                        <b>$122.00</b>
+                    </div>
+                    <div class="shopping">
+                        <div class="shopping-top">
+                            <span><i class="fa-regular fa-heart" style="color: #ffffff;"></i></span>
+                            <span><i class="fa-solid fa-arrow-right-arrow-left" style="color: #ffffff;"></i></span>
+                            <span><i class="fa-solid fa-eye" style="color: #ffffff;"></i></span>
+                        </div>
+                        <div class="shopping-bottom">
+                            <button>Add To Card</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="products-skincare__item1">
+                    <div class="products-skincare__img">
+                        <img src="https://i5.walmartimages.com/asr/05f74e7a-47a3-4051-b185-63ef78c7aa59.b4f010e8112e1fd230655633ac85cb49.jpeg" alt="">
+                    </div>
+                    <div class="products-skincare__content">
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h2>Skin Care Bubble</h2>
+                        <b>$122.00</b>
+                    </div>
+                    <div class="shopping">
+                        <div class="shopping-top">
+                            <span><i class="fa-regular fa-heart" style="color: #ffffff;"></i></span>
+                            <span><i class="fa-solid fa-arrow-right-arrow-left" style="color: #ffffff;"></i></span>
+                            <span><i class="fa-solid fa-eye" style="color: #ffffff;"></i></span>
+                        </div>
+                        <div class="shopping-bottom">
+                            <button>Add To Card</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="products-skincare__item1">
+                    <div class="products-skincare__img">
+                        <img src="https://i5.walmartimages.com/asr/05f74e7a-47a3-4051-b185-63ef78c7aa59.b4f010e8112e1fd230655633ac85cb49.jpeg" alt="">
+                    </div>
+                    <div class="products-skincare__content">
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h2>Skin Care Bubble</h2>
+                        <b>$122.00</b>
+                    </div>
+                    <div class="shopping">
+                        <div class="shopping-top">
+                            <span><i class="fa-regular fa-heart" style="color: #ffffff;"></i></span>
+                            <span><i class="fa-solid fa-arrow-right-arrow-left" style="color: #ffffff;"></i></span>
+                            <span><i class="fa-solid fa-eye" style="color: #ffffff;"></i></span>
+                        </div>
+                        <div class="shopping-bottom">
+                            <button>Add To Card</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="products-skincare__item1">
+                    <div class="products-skincare__img">
+                        <img src="https://i5.walmartimages.com/asr/05f74e7a-47a3-4051-b185-63ef78c7aa59.b4f010e8112e1fd230655633ac85cb49.jpeg" alt="">
+                    </div>
+                    <div class="products-skincare__content">
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h2>Skin Care Bubble</h2>
+                        <b>$122.00</b>
+                    </div>
+                    <div class="shopping">
+                        <div class="shopping-top">
+                            <span><i class="fa-regular fa-heart" style="color: #ffffff;"></i></span>
+                            <span><i class="fa-solid fa-arrow-right-arrow-left" style="color: #ffffff;"></i></span>
+                            <span><i class="fa-solid fa-eye" style="color: #ffffff;"></i></span>
+                        </div>
+                        <div class="shopping-bottom">
+                            <button>Add To Card</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="products-haircare">
+                <div class="products-skincare__item1">
+                    <div class="products-skincare__img">
+                        <img src="https://d2iw2fcvhmnafk.cloudfront.net/centralweb/minio/image/asset/bipbip/source/8935136863774_2.png" alt="">
+                    </div>
+                    <div class="products-skincare__content">
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h2>Skin Care Bubble</h2>
+                        <b>$122.00</b>
+                    </div>
+                    <div class="shopping">
+                        <div class="shopping-top">
+                            <span><i class="fa-regular fa-heart" style="color: #ffffff;"></i></span>
+                            <span><i class="fa-solid fa-arrow-right-arrow-left" style="color: #ffffff;"></i></span>
+                            <span><i class="fa-solid fa-eye" style="color: #ffffff;"></i></span>
+                        </div>
+                        <div class="shopping-bottom">
+                            <button>Add To Card</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="products-skincare__item1">
+                    <div class="products-skincare__img">
+                        <img src="https://d2iw2fcvhmnafk.cloudfront.net/centralweb/minio/image/asset/bipbip/source/8935136863774_2.png" alt="">
+                    </div>
+                    <div class="products-skincare__content">
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h2>Skin Care Bubble</h2>
+                        <b>$122.00</b>
+                    </div>
+                    <div class="shopping">
+                        <div class="shopping-top">
+                            <span><i class="fa-regular fa-heart" style="color: #ffffff;"></i></span>
+                            <span><i class="fa-solid fa-arrow-right-arrow-left" style="color: #ffffff;"></i></span>
+                            <span><i class="fa-solid fa-eye" style="color: #ffffff;"></i></span>
+                        </div>
+                        <div class="shopping-bottom">
+                            <button>Add To Card</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="products-skincare__item1">
+                    <div class="products-skincare__img">
+                        <img src="https://d2iw2fcvhmnafk.cloudfront.net/centralweb/minio/image/asset/bipbip/source/8935136863774_2.png" alt="">
+                    </div>
+                    <div class="products-skincare__content">
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h2>Skin Care Bubble</h2>
+                        <b>$122.00</b>
+                    </div>
+                    <div class="shopping">
+                        <div class="shopping-top">
+                            <span><i class="fa-regular fa-heart" style="color: #ffffff;"></i></span>
+                            <span><i class="fa-solid fa-arrow-right-arrow-left" style="color: #ffffff;"></i></span>
+                            <span><i class="fa-solid fa-eye" style="color: #ffffff;"></i></span>
+                        </div>
+                        <div class="shopping-bottom">
+                            <button>Add To Card</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="products-skincare__item1">
+                    <div class="products-skincare__img">
+                        <img src="https://d2iw2fcvhmnafk.cloudfront.net/centralweb/minio/image/asset/bipbip/source/8935136863774_2.png" alt="">
+                    </div>
+                    <div class="products-skincare__content">
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h2>Skin Care Bubble</h2>
+                        <b>$122.00</b>
+                    </div>
+                    <div class="shopping">
+                        <div class="shopping-top">
+                            <span><i class="fa-regular fa-heart" style="color: #ffffff;"></i></span>
+                            <span><i class="fa-solid fa-arrow-right-arrow-left" style="color: #ffffff;"></i></span>
+                            <span><i class="fa-solid fa-eye" style="color: #ffffff;"></i></span>
+                        </div>
+                        <div class="shopping-bottom">
+                            <button>Add To Card</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="products-cosmetic">
+                <div class="products-skincare__item1">
+                    <div class="products-skincare__img">
+                        <img src="https://dynamic.zacdn.com/K5R7zZTsns4DKN9jW4N_g5QjKH0=/filters:quality(70):format(webp)/https://static-hk.zacdn.com/p/marc-jacobs-2890-2915456-3.jpg" alt="">
+                    </div>
+                    <div class="products-skincare__content">
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h2>Skin Care Bubble</h2>
+                        <b>$122.00</b>
+                    </div>
+                    <div class="shopping">
+                        <div class="shopping-top">
+                            <span><i class="fa-regular fa-heart" style="color: #ffffff;"></i></span>
+                            <span><i class="fa-solid fa-arrow-right-arrow-left" style="color: #ffffff;"></i></span>
+                            <span><i class="fa-solid fa-eye" style="color: #ffffff;"></i></span>
+                        </div>
+                        <div class="shopping-bottom">
+                            <button>Add To Card</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="products-skincare__item1">
+                    <div class="products-skincare__img">
+                        <img src="https://dynamic.zacdn.com/K5R7zZTsns4DKN9jW4N_g5QjKH0=/filters:quality(70):format(webp)/https://static-hk.zacdn.com/p/marc-jacobs-2890-2915456-3.jpg" alt="">
+                    </div>
+                    <div class="products-skincare__content">
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h2>Skin Care Bubble</h2>
+                        <b>$122.00</b>
+                    </div>
+                    <div class="shopping">
+                        <div class="shopping-top">
+                            <span><i class="fa-regular fa-heart" style="color: #ffffff;"></i></span>
+                            <span><i class="fa-solid fa-arrow-right-arrow-left" style="color: #ffffff;"></i></span>
+                            <span><i class="fa-solid fa-eye" style="color: #ffffff;"></i></span>
+                        </div>
+                        <div class="shopping-bottom">
+                            <button>Add To Card</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="products-skincare__item1">
+                    <div class="products-skincare__img">
+                        <img src="https://dynamic.zacdn.com/K5R7zZTsns4DKN9jW4N_g5QjKH0=/filters:quality(70):format(webp)/https://static-hk.zacdn.com/p/marc-jacobs-2890-2915456-3.jpg" alt="">
+                    </div>
+                    <div class="products-skincare__content">
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h2>Skin Care Bubble</h2>
+                        <b>$122.00</b>
+                    </div>
+                    <div class="shopping">
+                        <div class="shopping-top">
+                            <span><i class="fa-regular fa-heart" style="color: #ffffff;"></i></span>
+                            <span><i class="fa-solid fa-arrow-right-arrow-left" style="color: #ffffff;"></i></span>
+                            <span><i class="fa-solid fa-eye" style="color: #ffffff;"></i></span>
+                        </div>
+                        <div class="shopping-bottom">
+                            <button>Add To Card</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="products-skincare__item1">
+                    <div class="products-skincare__img">
+                        <img src="https://dynamic.zacdn.com/K5R7zZTsns4DKN9jW4N_g5QjKH0=/filters:quality(70):format(webp)/https://static-hk.zacdn.com/p/marc-jacobs-2890-2915456-3.jpg" alt="">
+                    </div>
+                    <div class="products-skincare__content">
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h2>Skin Care Bubble</h2>
+                        <b>$122.00</b>
+                    </div>
+                    <div class="shopping">
+                        <div class="shopping-top">
+                            <span><i class="fa-regular fa-heart" style="color: #ffffff;"></i></span>
+                            <span><i class="fa-solid fa-arrow-right-arrow-left" style="color: #ffffff;"></i></span>
+                            <span><i class="fa-solid fa-eye" style="color: #ffffff;"></i></span>
+                        </div>
+                        <div class="shopping-bottom">
+                            <button>Add To Card</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="products-fragrance">
+                <div class="products-skincare__item1">
+                    <div class="products-skincare__img">
+                        <img src="https://perfume168.com/wp-content/uploads/2023/06/J.jpg" alt="">
+                    </div>
+                    <div class="products-skincare__content">
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h2>Skin Care Bubble</h2>
+                        <b>$122.00</b>
+                    </div>
+                    <div class="shopping">
+                        <div class="shopping-top">
+                            <span><i class="fa-regular fa-heart" style="color: #ffffff;"></i></span>
+                            <span><i class="fa-solid fa-arrow-right-arrow-left" style="color: #ffffff;"></i></span>
+                            <span><i class="fa-solid fa-eye" style="color: #ffffff;"></i></span>
+                        </div>
+                        <div class="shopping-bottom">
+                            <button>Add To Card</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="products-skincare__item1">
+                    <div class="products-skincare__img">
+                        <img src="https://perfume168.com/wp-content/uploads/2023/06/J.jpg" alt="">
+                    </div>
+                    <div class="products-skincare__content">
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h2>Skin Care Bubble</h2>
+                        <b>$122.00</b>
+                    </div>
+                    <div class="shopping">
+                        <div class="shopping-top">
+                            <span><i class="fa-regular fa-heart" style="color: #ffffff;"></i></span>
+                            <span><i class="fa-solid fa-arrow-right-arrow-left" style="color: #ffffff;"></i></span>
+                            <span><i class="fa-solid fa-eye" style="color: #ffffff;"></i></span>
+                        </div>
+                        <div class="shopping-bottom">
+                            <button>Add To Card</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="products-skincare__item1">
+                    <div class="products-skincare__img">
+                        <img src="https://perfume168.com/wp-content/uploads/2023/06/J.jpg" alt="">
+                    </div>
+                    <div class="products-skincare__content">
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h2>Skin Care Bubble</h2>
+                        <b>$122.00</b>
+                    </div>
+                    <div class="shopping">
+                        <div class="shopping-top">
+                            <span><i class="fa-regular fa-heart" style="color: #ffffff;"></i></span>
+                            <span><i class="fa-solid fa-arrow-right-arrow-left" style="color: #ffffff;"></i></span>
+                            <span><i class="fa-solid fa-eye" style="color: #ffffff;"></i></span>
+                        </div>
+                        <div class="shopping-bottom">
+                            <button>Add To Card</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="products-skincare__item1">
+                    <div class="products-skincare__img">
+                        <img src="https://perfume168.com/wp-content/uploads/2023/06/J.jpg" alt="">
+                    </div>
+                    <div class="products-skincare__content">
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h2>Skin Care Bubble</h2>
+                        <b>$122.00</b>
+                    </div>
+                    <div class="shopping">
+                        <div class="shopping-top">
+                            <span><i class="fa-regular fa-heart" style="color: #ffffff;"></i></span>
+                            <span><i class="fa-solid fa-arrow-right-arrow-left" style="color: #ffffff;"></i></span>
+                            <span><i class="fa-solid fa-eye" style="color: #ffffff;"></i></span>
+                        </div>
+                        <div class="shopping-bottom">
+                            <button>Add To Card</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="products-makeup">
+                <div class="products-skincare__item1">
+                    <div class="products-skincare__img">
+                        <img src="https://m.bobbibrown.com.au/media/export/cms/products/415x415/bb_prod_EETT_415x415_0.jpg" alt="">
+                    </div>
+                    <div class="products-skincare__content">
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h2>Skin Care Bubble</h2>
+                        <b>$122.00</b>
+                    </div>
+                    <div class="shopping">
+                        <div class="shopping-top">
+                            <span><i class="fa-regular fa-heart" style="color: #ffffff;"></i></span>
+                            <span><i class="fa-solid fa-arrow-right-arrow-left" style="color: #ffffff;"></i></span>
+                            <span><i class="fa-solid fa-eye" style="color: #ffffff;"></i></span>
+                        </div>
+                        <div class="shopping-bottom">
+                            <button>Add To Card</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="products-skincare__item1">
+                    <div class="products-skincare__img">
+                        <img src="https://m.bobbibrown.com.au/media/export/cms/products/415x415/bb_prod_EETT_415x415_0.jpg" alt="">
+                    </div>
+                    <div class="products-skincare__content">
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h2>Skin Care Bubble</h2>
+                        <b>$122.00</b>
+                    </div>
+                    <div class="shopping">
+                        <div class="shopping-top">
+                            <span><i class="fa-regular fa-heart" style="color: #ffffff;"></i></span>
+                            <span><i class="fa-solid fa-arrow-right-arrow-left" style="color: #ffffff;"></i></span>
+                            <span><i class="fa-solid fa-eye" style="color: #ffffff;"></i></span>
+                        </div>
+                        <div class="shopping-bottom">
+                            <button>Add To Card</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="products-skincare__item1">
+                    <div class="products-skincare__img">
+                        <img src="https://m.bobbibrown.com.au/media/export/cms/products/415x415/bb_prod_EETT_415x415_0.jpg" alt="">
+                    </div>
+                    <div class="products-skincare__content">
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h2>Skin Care Bubble</h2>
+                        <b>$122.00</b>
+                    </div>
+                    <div class="shopping">
+                        <div class="shopping-top">
+                            <span><i class="fa-regular fa-heart" style="color: #ffffff;"></i></span>
+                            <span><i class="fa-solid fa-arrow-right-arrow-left" style="color: #ffffff;"></i></span>
+                            <span><i class="fa-solid fa-eye" style="color: #ffffff;"></i></span>
+                        </div>
+                        <div class="shopping-bottom">
+                            <button>Add To Card</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="products-skincare__item1">
+                    <div class="products-skincare__img">
+                        <img src="https://m.bobbibrown.com.au/media/export/cms/products/415x415/bb_prod_EETT_415x415_0.jpg" alt="">
+                    </div>
+                    <div class="products-skincare__content">
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h2>Skin Care Bubble</h2>
+                        <b>$122.00</b>
+                    </div>
+                    <div class="shopping">
+                        <div class="shopping-top">
+                            <span><i class="fa-regular fa-heart" style="color: #ffffff;"></i></span>
+                            <span><i class="fa-solid fa-arrow-right-arrow-left" style="color: #ffffff;"></i></span>
+                            <span><i class="fa-solid fa-eye" style="color: #ffffff;"></i></span>
+                        </div>
+                        <div class="shopping-bottom">
+                            <button>Add To Card</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <script>
+        var step = document.querySelector('.nav-id');
+        var remove = document.querySelector('.nav-id1');
+        function showBackground(){     
+            remove.classList.add('nav-id2__bonus');
+        };
+        remove.addEventListener('click',()=>{
+            remove.classList.remove('nav-id2__bonus');
+        })
+    </script>
+</body>
+</html>

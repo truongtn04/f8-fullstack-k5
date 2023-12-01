@@ -1,0 +1,37 @@
+body{
+    margin: 50px 50px;
+}
+b{
+    font-size: 30px;
+
+}
+h1 span{
+    color: goldenrod;
+}
+section{
+    margin-top: 30px;
+    background-color:#324554;
+    padding: 20px 30px;
+}
+section p{
+    width: 500px;
+    color: white;
+}
+form input, form button{
+    width: 250px;
+    height: 40px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+section:hover form input::placeholder{
+    color:goldenrod;
+}
+section:hover form input{
+    background-color: #ddd;
+}
+section:hover form button{
+    background-color:goldenrod;
+    color: #fff;
+}
