@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Kolker+Brush&family=Tilt+Neon&family=Young+Serif&display=swap');
+body{
+    margin: 50px 50px;
+}
+b{
+    font-size: 30px;
+ }
+section{
+    text-align: center;
+ }
+ h1{
+    font-family:'BebasNeue'serif;
+    font-size: 30px;
+    text-transform: uppercase;
+ }
+ h2{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Alfa Slab One', serif;
+ }
+ input{
+    font-family: 'BebasNeue',serif;
+    display: block;
+    width: 230px;
+    height: 35px;
+    padding: 0 10px;
+    margin-bottom: 15px;
+ }
+ input::placeholder{
+   color: black;
+   font-size: 16px;
+ }
+ button{
+    font-family: 'Alfa Slab One', serif;
+    width: 255px;
+    height: 40px;
+    background-color: brown;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    letter-spacing: 1px;
+ }
+ .form{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    margin: 0 auto;
+ }
+label{
+   position: relative;
+   display: inline-block;
+   height: 39px;
+   margin-bottom: 15px;
+   position: relative;
+ }
+ input:focus ~span::before{
+   display: none;
+ }
+span::before,
+.form-time::before{
+   content: 'DATE';
+   position: absolute;
+   top: 0;
+   left: 0;
+   background: white;
+   font-size: 16px;
+   top: 10px;
+   left: 10px;
+   right: 3px;
+   text-align: left;
+}
+.form-time::before{
+   content:'TIME';
+}
+.form-right{
+   display: flex;
+   flex-direction: column;
+}

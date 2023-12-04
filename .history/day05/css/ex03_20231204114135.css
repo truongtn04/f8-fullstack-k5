@@ -1,0 +1,11 @@
+section{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+.list-products{
+    margin-top: 50px;
+}
+.item{
+    width: 300px;
+}

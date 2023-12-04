@@ -1,0 +1,14 @@
+body{
+    margin: 50px 50px;
+}
+label{
+    background-color: orangered;
+}
+article{
+    width: 600px;
+    margin: 0 auto;
+}
+label{
+    width: 600px;
+    display: block;
+}
