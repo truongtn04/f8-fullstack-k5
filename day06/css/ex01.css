@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Kolker+Brush&family=Lato&family=Lobster&family=Open+Sans:wght@300&family=Tilt+Neon&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+i{
+    font-size: 14px;
+}
+header{
+    padding-top: 50px;
+}
+.navbar{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid grey;
+}
+.navbar-left{
+    display: flex;
+}
+.item1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item1::before{
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background: grey; 
+    top: 0;
+    right: 0;
+}
+.item1-heading,
+.item-bonus,
+.navbar-right{
+    user-select: none;
+    cursor: pointer;
+}
+.item1,
+.item1-heading{
+    padding: 7px 10px;
+}
+.item1-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    display: inline-block;
+    padding: 0 10px;
+}
+.item1.item-bonus{
+    padding: 7px 20px;
+}
+.item1:hover,
+.navbar-right:hover{
+    background-color:indianred;
+    color: white;
+}
+.navbar-right{
+    padding: 14px 10px;
+    position: relative;
+}
+.navbar-right:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 1px;
+    background: gray;
+}
+/* nav bar child */
+.navbar-child{
+    position: absolute;
+    bottom: -150px;
+    left: 0;
+    width: 200px;
+    box-shadow: 0 3px 20px grey;
+    transform: scale(0);
+    transition: 0.3s ease-in-out;
+    transform-origin: top left;
+}
+.navbar-child::before{
+    content: '';
+    position: absolute;
+    width: 157px;
+    height: 14px;
+    top: -14px;
+    left: 0;
+}
+.navbar-child-arrow{
+    position: absolute;
+    top: -17px;
+    left: 13px;
+    border: 10px solid white;
+    border-color: transparent transparent white transparent;
+    width: 0px;
+    height: 0px;
+}
+.navbar-child ul li{
+    list-style: none;
+    padding: 10px 20px;
+    border-bottom: 1px solid black;
+}
+.navbar-child ul li:nth-of-type(3){
+    border-bottom: none;
+}
+.navbar-child ul li a{
+    text-decoration: none;
+    color: black;
+}
+.navbar-child ul li a i{
+    padding-right: 5px;
+}
+/* hover show nav-child */
+.item1:hover .navbar-child{
+    transform: scale(1);
+}
