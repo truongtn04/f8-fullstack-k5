@@ -89,20 +89,20 @@ a{
 }
 /* hover */
 .item-one:hover{
-    border: 2px solid #e4696a;
+    outline: 2px solid #e4696a;
 }
 .item2:hover{
-    border: 2px solid #68c4a0;
+    outline: 2px solid #68c4a0;
 }
 .item3:hover{
-    border: 2px solid #e49135;
+    outline: 2px solid #e49135;
 }
 .item4:hover{
-    border: 2px solid #366ed0;
+    outline: 2px solid #366ed0;
 }
 .item5:hover{
-    border: 2px solid #7a2acf;
+    outline: 2px solid #7a2acf;
 }
 .item6:hover{
-    border: 2px solid #6b8d2f;
+    outline: 2px solid #6b8d2f;
 }
