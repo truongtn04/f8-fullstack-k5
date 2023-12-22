@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/ex01.css">
+</head>
+<body>
+    <div class="container">
+        <label for="icon" class ="icon-nav">
+            <span class="icon"></span>
+        </label>
+        <input type="checkbox" hidden id ="icon">
+        <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="circle"></div>
+    </div>
+    <script>
+        var showIcon = document.querySelector('.icon-nav');
+        showIcon.addEventListener('click',()=>{
+            showIcon.classList.toggle('bonus');
+        })
+    </script>
+</body>
+</html>
