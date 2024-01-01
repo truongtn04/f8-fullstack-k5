@@ -15,9 +15,6 @@
                 <img src="https://hoanganf8.github.io/htmlcss_project01/assets/images/logo.svg" alt="Logo">
             </div>
             <ul class="navbar">
-                <span class="close">
-                    <i class="fa-solid fa-xmark"></i>
-                </span>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Menu</a></li>
                 <li><a href="#">Service</a></li>
@@ -45,7 +42,7 @@
                 <div class="banner-content">
                     <h1>Groceries delivered in as little as <span>2 hours</span></h1>
                     <p>Grocen atssures fresh grocery every morning to your family without getting out in this pandemic.</p>
-                    <div class="banner-button__parents">
+                    <div class="banner-button">
                         <div class="banner-button">
                             <a href="#">Order Now</a>
                         </div>
@@ -199,16 +196,11 @@
         const iconMenu = document.querySelector('.header-icon');
         const navbar = document.querySelector('.navbar');
         const overlay = document.querySelector('.overlay');
-        const close = document.querySelector('.close');
-        iconMenu.addEventListener('click',()=>{
-            navbar.classList.toggle('active');
-            overlay.classList.add('active');
-        });
-        overlay.addEventListener('click',()=>{
+        iconMenu.addEvenListener('click',()=>{
             navbar.classList.toggle('active');
             overlay.classList.toggle('active');
         });
-        close.addEventListener('click',()=>{
+        overlay.addEvenListener('click',()=>{
             navbar.classList.toggle('active');
             overlay.classList.toggle('active');
         });

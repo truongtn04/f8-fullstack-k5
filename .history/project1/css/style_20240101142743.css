@@ -91,18 +91,8 @@ p{
     cursor: pointer;
     transition: color .2s ease-in-out;
 }
-.header .navbar li:nth-of-type(1) a{
+.header .navbar li:nth-child(1) a{
     color: #f45253;
-}
-/* close */
-.close{
-    font-size:30px;
-    color: white;
-    position: absolute;
-    top: 3px; 
-    right: 10px;
-    display: none;
-    cursor: pointer;
 }
 /* navbar hover */
 .header .navbar li a:hover{
@@ -562,8 +552,6 @@ p{
     }
     .header .navbar li{
         display: block;
-        margin-right: 50px;
-        cursor: pointer;
     }
     .header .navbar li:hover{
         background: teal;
@@ -579,10 +567,6 @@ p{
     }
 }
 @media (max-width: 991px) {
-    /* close */
-    .close{
-        display: block;
-    }
     /* button */
     .banner-button a,
     .choose-button a,
@@ -674,12 +658,13 @@ p{
             text-align: center;
         }
         .choose-left{
-        max-width: 100%;
-           text-align: center;
+            width: 100%;
+            margin:0 auto;
+            padding-left: 140px;
             margin-bottom: 30px;
         }
         .choose-left img{
-            width: 80%;
+            width: 100%;
         }
         .choose-button{
             display: flex;
@@ -689,11 +674,8 @@ p{
     /* end choose */
     /* delivery */
     .delivery-img{
-        max-width: 100%;    
-        text-align: center;
-    }
-    .delivery-img img{ 
-        width: 80%;
+        max-width: 100%;
+        padding-left: 140px;
     }
     .delivery-content{
         text-align: center;
@@ -716,14 +698,12 @@ p{
     }
     /* download  */
     .footer-bottom{
-        margin-top: 10px;
         flex-direction: column;
         align-items: flex-start;
     }
     .footer-bottom-left a{
         margin: initial;
-        margin-top: 20px;
-        display: inline-block;
+        margin-top: 10px;
     }
 }
 @media (max-width: 575px){

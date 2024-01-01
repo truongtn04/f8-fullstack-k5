@@ -199,16 +199,11 @@
         const iconMenu = document.querySelector('.header-icon');
         const navbar = document.querySelector('.navbar');
         const overlay = document.querySelector('.overlay');
-        const close = document.querySelector('.close');
         iconMenu.addEventListener('click',()=>{
             navbar.classList.toggle('active');
             overlay.classList.add('active');
         });
         overlay.addEventListener('click',()=>{
-            navbar.classList.toggle('active');
-            overlay.classList.toggle('active');
-        });
-        close.addEventListener('click',()=>{
             navbar.classList.toggle('active');
             overlay.classList.toggle('active');
         });

@@ -15,9 +15,7 @@
                 <img src="https://hoanganf8.github.io/htmlcss_project01/assets/images/logo.svg" alt="Logo">
             </div>
             <ul class="navbar">
-                <span class="close">
-                    <i class="fa-solid fa-xmark"></i>
-                </span>
+                <span class="close"></span>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Menu</a></li>
                 <li><a href="#">Service</a></li>
@@ -199,16 +197,11 @@
         const iconMenu = document.querySelector('.header-icon');
         const navbar = document.querySelector('.navbar');
         const overlay = document.querySelector('.overlay');
-        const close = document.querySelector('.close');
         iconMenu.addEventListener('click',()=>{
             navbar.classList.toggle('active');
             overlay.classList.add('active');
         });
         overlay.addEventListener('click',()=>{
-            navbar.classList.toggle('active');
-            overlay.classList.toggle('active');
-        });
-        close.addEventListener('click',()=>{
             navbar.classList.toggle('active');
             overlay.classList.toggle('active');
         });

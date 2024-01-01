@@ -91,7 +91,7 @@ p{
     cursor: pointer;
     transition: color .2s ease-in-out;
 }
-.header .navbar li:nth-of-type(1) a{
+.header .navbar li:nth-child(1) a{
     color: #f45253;
 }
 /* close */

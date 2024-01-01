@@ -91,18 +91,8 @@ p{
     cursor: pointer;
     transition: color .2s ease-in-out;
 }
-.header .navbar li:nth-of-type(1) a{
+.header .navbar li:nth-child(1) a{
     color: #f45253;
-}
-/* close */
-.close{
-    font-size:30px;
-    color: white;
-    position: absolute;
-    top: 3px; 
-    right: 10px;
-    display: none;
-    cursor: pointer;
 }
 /* navbar hover */
 .header .navbar li a:hover{
@@ -562,8 +552,6 @@ p{
     }
     .header .navbar li{
         display: block;
-        margin-right: 50px;
-        cursor: pointer;
     }
     .header .navbar li:hover{
         background: teal;
@@ -579,10 +567,6 @@ p{
     }
 }
 @media (max-width: 991px) {
-    /* close */
-    .close{
-        display: block;
-    }
     /* button */
     .banner-button a,
     .choose-button a,
@@ -632,10 +616,6 @@ p{
     /* end footer */
 }
 @media (max-width: 767px) {
-    /* text */
-    .serve-top h2{
-        max-width: 90%;
-    }
     .banner-bottom,
     #delivery{
         flex-direction: column-reverse;
@@ -674,75 +654,12 @@ p{
             text-align: center;
         }
         .choose-left{
-        max-width: 100%;
-           text-align: center;
-            margin-bottom: 30px;
+            width: 80%;
+            margin:0 auto;
+            padding-left: 20px;
         }
         .choose-left img{
-            width: 80%;
-        }
-        .choose-button{
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            width: 100%;
         }
     /* end choose */
-    /* delivery */
-    .delivery-img{
-        max-width: 100%;    
-        text-align: center;
-    }
-    .delivery-img img{ 
-        width: 80%;
-    }
-    .delivery-content{
-        text-align: center;
-        max-width: 100%;
-    }
-    .delivery-button{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    /* end delivery */
-    /* download */
-    .download-content{
-        max-width: 100%;
-        text-align: center;
-        margin-top: 50px;
-    }
-    .download-button{
-        margin: 0 auto;
-    }
-    /* download  */
-    .footer-bottom{
-        margin-top: 10px;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    .footer-bottom-left a{
-        margin: initial;
-        margin-top: 20px;
-        display: inline-block;
-    }
 }
-@media (max-width: 575px){
-    .serve-top h2{
-        max-width: 90%;
-    }
-    .header{
-        margin-bottom: 70px;
-    }
-    .header-search{
-        position: absolute;
-        left: 55%;
-        transform: translateX(-50%);
-        top: 120px;
-    }
-    .footer-top__menu{
-        flex-direction: column;
-    }
-    .footer-top__menu .menu-mega__item{
-        margin-bottom: 30px;
-    }
-} 
