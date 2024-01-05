@@ -319,6 +319,11 @@
         justify-content: center;
         align-items: center;
     }
+    .lading-form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .lading-content{
         top: 10px;
         left: 50%;
@@ -340,7 +345,7 @@
     .form-box.login.form-active,
     .form-box.register.form-active{
         width: 484px;
-        transform: translate(0,20%);
+        transform: translate(0,0);
         display: block;
     }
     .form-box.login{
@@ -365,7 +370,7 @@
         width: 90%;
         left: 50%;
         top: 50%;
-        transform: translate(-50%,10%);
+        transform: translate(-50%,0);
     }
     .button-login, 
     .button-register{
