@@ -1,0 +1,16 @@
+.container{
+    background: red;
+    color: white;
+    .header{
+        background: green;
+        color: white;
+    }
+}
+%navbar{
+    background: red;
+    color: white;
+}
+.sidebar{
+    @extend %navbar;
+    border: 1px solid white;
+}
